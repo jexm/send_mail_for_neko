@@ -30,7 +30,7 @@ class Main {
 			host:"smtp.163.com", 
 			port:25, 
 			user:"gdstmjx@163.com", 
-			pass:"gdstmjx8888" 
+			pass:"******" 
 		};
 		var mailer = new ufront.mailer.SmtpMailer(_mailerServer);
 		var sendMailContent = new ufront.mail.Email();
